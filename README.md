@@ -71,6 +71,7 @@ cmake --build .
 - `-DETHASHCL=ON` - enable OpenCL mining, `ON` by default,
 - `-DETHASHCUDA=ON` - enable CUDA mining, `OFF` by default,
 - `-DETHSTRATUM=ON` - build with Stratum protocol support, `ON` by default.
+- `-DNOCOLOR=ON` - build without printing color to terminal, `OFF` by default.
 
 [CMake]: https://cmake.org
 [cpp-ethereum]: https://github.com/ethereum/cpp-ethereum
