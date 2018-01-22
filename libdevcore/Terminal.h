@@ -5,9 +5,7 @@ namespace dev
 namespace con
 {
 
-#ifdef _WIN32
-
-#define EthReset ""       // Text Reset
+#if defined(_WIN32) || defined(NO_COLOR)
 
 #define EthReset ""       // Text Reset
 
